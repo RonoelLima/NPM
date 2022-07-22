@@ -32,6 +32,22 @@ Comandos do NPM - para mais informações podemos acessar o site oficial do npm:
 
 15. "npm prune" verifica as dependências que estão presentes na pasta node-modules e não estão sendo utilizadas na lista de dependências do projeto no package.json;
 
-16. "npm search "pacote" " - procura pacotes pela linha de comandos do terminal e mostra o resultado da busca com o nome, descrição, author, versão e palavra chave;         
+16. "npm search "pacote" " - procura pacotes pela linha de comandos do terminal e mostra o resultado da busca com o nome, descrição, author, versão e palavra chave;
+
+17. "npm outdated" - verifica os pacotes que estão desatualizados e apresenta o nome do pacote, versão atual, versão disponível e nome do projeto;
+
+18. "npm update" - atualiza os pacotes pendentes de atualização - Atenção, cuidado para não quebrar a aplicação, antes de realizar a atualização verifique a documentação do pacote;
+
+19. "npm cache verify" , "npm chache clean --force";
+
+20. "npm audit" - verifica vulnerabilidades nos pacotes instalados e mostra um relatório deletalhado. 
+
+21. "npm audit fix" - realiza uma tentativa de corrigir os problemas encontrados e as vunerabilidades do projeto.     
+
+22. "npm view "pacote" - realiza uma busca e retorna algumas informações sobre o pacote na base do npm.
+
+23. "npm docs "pacote" - redireciona para página oficial do pacote na internet.
+
+24. "npm dedupe" - verifica a existência de pacotes duplicados.           
 
 
