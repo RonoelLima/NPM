@@ -30,6 +30,8 @@ Comandos do NPM - para mais informações podemos acessar o site oficial do npm:
 
 14. "npm list --deph=0" lista as dependências instaladas sem mostrar as subdependências instaladas;
 
-15. "npm prune" verifica as dependências que estão presentes na pasta node-modules e não estão sendo utilizadas na lista de dependências do projeto no package.json;         
+15. "npm prune" verifica as dependências que estão presentes na pasta node-modules e não estão sendo utilizadas na lista de dependências do projeto no package.json;
+
+16. "npm search "pacote" " - procura pacotes pela linha de comandos do terminal e mostra o resultado da busca com o nome, descrição, author, versão e palavra chave;         
 
 
